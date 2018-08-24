@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joao/Downloads/ColorCloud/src/main.cpp
+iostream
+-
+thread
+-
+iostream
+-
+vector
+-
+list
+-
+GL/glut.h
+-
+

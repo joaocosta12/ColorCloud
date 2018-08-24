@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11    CMakeFiles/Asteroids.dir/src/main.cpp.o  -o Asteroids -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi 
