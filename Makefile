@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/Downloads/ColorCloud
+CMAKE_SOURCE_DIR = /home/joao/Downloads/CloudAnalysis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/Downloads/ColorCloud
+CMAKE_BINARY_DIR = /home/joao/Downloads/CloudAnalysis
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/Downloads/ColorCloud/CMakeFiles /home/joao/Downloads/ColorCloud/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/Downloads/CloudAnalysis/CMakeFiles /home/joao/Downloads/CloudAnalysis/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/Downloads/ColorCloud/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/Downloads/CloudAnalysis/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,24 +99,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ColorCloud
+# Target rules for targets named CloudAnalysis
 
 # Build rule for target.
-ColorCloud: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ColorCloud
-.PHONY : ColorCloud
+CloudAnalysis: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CloudAnalysis
+.PHONY : CloudAnalysis
 
 # fast build rule for target.
-ColorCloud/fast:
-	$(MAKE) -f CMakeFiles/ColorCloud.dir/build.make CMakeFiles/ColorCloud.dir/build
-.PHONY : ColorCloud/fast
+CloudAnalysis/fast:
+	$(MAKE) -f CMakeFiles/CloudAnalysis.dir/build.make CMakeFiles/CloudAnalysis.dir/build
+.PHONY : CloudAnalysis/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/ColorCloud.dir/build.make CMakeFiles/ColorCloud.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/CloudAnalysis.dir/build.make CMakeFiles/CloudAnalysis.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -124,7 +124,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/ColorCloud.dir/build.make CMakeFiles/ColorCloud.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/CloudAnalysis.dir/build.make CMakeFiles/CloudAnalysis.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -132,7 +132,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/ColorCloud.dir/build.make CMakeFiles/ColorCloud.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/CloudAnalysis.dir/build.make CMakeFiles/CloudAnalysis.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -141,7 +141,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... ColorCloud"
+	@echo "... CloudAnalysis"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src/main.o"

@@ -1,8 +1,8 @@
 #################################################
-# Projeto ColorCloud
+# CLOUD ANALYSIS
 #################################################
 
-project(ColorCloud)
+project(CloudAnalysis)
 cmake_minimum_required(VERSION 2.8)
 
 ################################################################################
@@ -26,6 +26,20 @@ set(${PROJECT_NAME}_ROOT_DIR         ${CMAKE_SOURCE_DIR})
 SET(CMAKE_MODULE_PATH                ${${PROJECT_NAME}_ROOT_DIR}/cmake)
 SET(CMAKE_CURRENT_BINARY_DIR            ${${PROJECT_NAME}_ROOT_DIR}/build)
 SET(CMAKE_INSTALL_PREFIX             ${${PROJECT_NAME}_ROOT_DIR}/bin)
+
+get_filename_component(OpenCV_DIR ${CMAKE_SOURCE_DIR} DIRECTORY)
+
+################################################################################
+# OpenCV
+
+set(CMAKE_PREFIX_PATH ${OpenCV_DIR}/opencv-3.2.0/bin/share/OpenCV)
+
+find_package(OpenCV REQUIRED)
+
+if(OpenCV_FOUND)
+	include_directories(${OpenCV_INCLUDE_DIRS}) 
+	link_directories(${OpenCV_LIB_DIR})
+endif()
 
 ################################################################################
 # OpenGL
@@ -70,8 +84,8 @@ endif(NOT GLM_FOUND)
 ################################################################################
 # FILES
 set(HDRS
+    #src/<header>.hpp    
 )
-
 
 set(SRCS
     
@@ -90,6 +104,7 @@ set(LIBS
     ${OPENGL_LIBRARIES} 
     ${GLUT_LIBRARIES}
     ${GLM_LIBRARIES}
+	${OpenCV_LIBS}
     
 )
 

@@ -627,3 +627,125 @@ Linking C executable cmTryCompileExec4016302420
 make[1]: Leaving directory `/home/joao/Downloads/ColorCloud/CMakeFiles/CMakeTmp'
 
 
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeded with the following output:
+Change Dir: /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3233584028/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3233584028.dir/build.make CMakeFiles/cmTryCompileExec3233584028.dir/build
+make[1]: Entering directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3233584028.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTryCompileExec3233584028.dir/src.cxx.o -c /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3233584028
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3233584028.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTryCompileExec3233584028.dir/src.cxx.o  -o cmTryCompileExec3233584028 -rdynamic 
+make[1]: Leaving directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeded with the following output:
+Change Dir: /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3777305528/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3777305528.dir/build.make CMakeFiles/cmTryCompileExec3777305528.dir/build
+make[1]: Entering directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3777305528.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTryCompileExec3777305528.dir/src.cxx.o -c /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3777305528
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3777305528.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTryCompileExec3777305528.dir/src.cxx.o  -o cmTryCompileExec3777305528 -rdynamic 
+make[1]: Leaving directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec117383078/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec117383078.dir/build.make CMakeFiles/cmTryCompileExec117383078.dir/build
+make[1]: Entering directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec117383078.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec117383078.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec117383078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec117383078.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec117383078.dir/CheckFunctionExists.c.o  -o cmTryCompileExec117383078 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3780593623/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3780593623.dir/build.make CMakeFiles/cmTryCompileExec3780593623.dir/build
+make[1]: Entering directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3780593623.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3780593623.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3780593623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3780593623.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3780593623.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3780593623 -rdynamic 
+make[1]: Leaving directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1503711791/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1503711791.dir/build.make CMakeFiles/cmTryCompileExec1503711791.dir/build
+make[1]: Entering directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1503711791.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec1503711791.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1503711791
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1503711791.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec1503711791.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1503711791 -rdynamic 
+make[1]: Leaving directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec480450448/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec480450448.dir/build.make CMakeFiles/cmTryCompileExec480450448.dir/build
+make[1]: Entering directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec480450448.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec480450448.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec480450448
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec480450448.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec480450448.dir/CheckFunctionExists.c.o  -o cmTryCompileExec480450448 -rdynamic 
+make[1]: Leaving directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec600187073/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec600187073.dir/build.make CMakeFiles/cmTryCompileExec600187073.dir/build
+make[1]: Entering directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec600187073.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec600187073.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec600187073
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec600187073.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec600187073.dir/CheckFunctionExists.c.o  -o cmTryCompileExec600187073 -rdynamic 
+make[1]: Leaving directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec955046412/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec955046412.dir/build.make CMakeFiles/cmTryCompileExec955046412.dir/build
+make[1]: Entering directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec955046412.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec955046412.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec955046412
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec955046412.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec955046412.dir/CheckFunctionExists.c.o  -o cmTryCompileExec955046412 -rdynamic -lICE 
+make[1]: Leaving directory `/home/joao/Downloads/CloudAnalysis/CMakeFiles/CMakeTmp'
+
+

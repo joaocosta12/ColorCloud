@@ -1,8 +1,8 @@
 #################################################
-# Projeto Asteroids
+# CLOUD ANALYSIS
 #################################################
 
-project(Asteroids)
+project(CloudAnalysis)
 cmake_minimum_required(VERSION 2.8)
 
 ################################################################################

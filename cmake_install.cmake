@@ -1,8 +1,8 @@
-# Install script for directory: /home/joao/Downloads/ColorCloud
+# Install script for directory: /home/joao/Downloads/CloudAnalysis
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/joao/Downloads/ColorCloud/bin")
+  SET(CMAKE_INSTALL_PREFIX "/home/joao/Downloads/CloudAnalysis/bin")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/joao/Downloads/ColorCloud/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/joao/Downloads/CloudAnalysis/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/joao/Downloads/ColorCloud/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/joao/Downloads/CloudAnalysis/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

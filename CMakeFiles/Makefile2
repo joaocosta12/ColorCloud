@@ -47,44 +47,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/Downloads/ColorCloud
+CMAKE_SOURCE_DIR = /home/joao/Downloads/CloudAnalysis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/Downloads/ColorCloud
+CMAKE_BINARY_DIR = /home/joao/Downloads/CloudAnalysis
 
 #=============================================================================
-# Target rules for target CMakeFiles/ColorCloud.dir
+# Target rules for target CMakeFiles/CloudAnalysis.dir
 
 # All Build rule for target.
-CMakeFiles/ColorCloud.dir/all:
-	$(MAKE) -f CMakeFiles/ColorCloud.dir/build.make CMakeFiles/ColorCloud.dir/depend
-	$(MAKE) -f CMakeFiles/ColorCloud.dir/build.make CMakeFiles/ColorCloud.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joao/Downloads/ColorCloud/CMakeFiles  1
-	@echo "Built target ColorCloud"
-.PHONY : CMakeFiles/ColorCloud.dir/all
+CMakeFiles/CloudAnalysis.dir/all:
+	$(MAKE) -f CMakeFiles/CloudAnalysis.dir/build.make CMakeFiles/CloudAnalysis.dir/depend
+	$(MAKE) -f CMakeFiles/CloudAnalysis.dir/build.make CMakeFiles/CloudAnalysis.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joao/Downloads/CloudAnalysis/CMakeFiles  1
+	@echo "Built target CloudAnalysis"
+.PHONY : CMakeFiles/CloudAnalysis.dir/all
 
 # Include target in all.
-all: CMakeFiles/ColorCloud.dir/all
+all: CMakeFiles/CloudAnalysis.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ColorCloud.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/Downloads/ColorCloud/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ColorCloud.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/Downloads/ColorCloud/CMakeFiles 0
-.PHONY : CMakeFiles/ColorCloud.dir/rule
+CMakeFiles/CloudAnalysis.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/Downloads/CloudAnalysis/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CloudAnalysis.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/Downloads/CloudAnalysis/CMakeFiles 0
+.PHONY : CMakeFiles/CloudAnalysis.dir/rule
 
 # Convenience name for target.
-ColorCloud: CMakeFiles/ColorCloud.dir/rule
-.PHONY : ColorCloud
+CloudAnalysis: CMakeFiles/CloudAnalysis.dir/rule
+.PHONY : CloudAnalysis
 
 # clean rule for target.
-CMakeFiles/ColorCloud.dir/clean:
-	$(MAKE) -f CMakeFiles/ColorCloud.dir/build.make CMakeFiles/ColorCloud.dir/clean
-.PHONY : CMakeFiles/ColorCloud.dir/clean
+CMakeFiles/CloudAnalysis.dir/clean:
+	$(MAKE) -f CMakeFiles/CloudAnalysis.dir/build.make CMakeFiles/CloudAnalysis.dir/clean
+.PHONY : CMakeFiles/CloudAnalysis.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/ColorCloud.dir/clean
+clean: CMakeFiles/CloudAnalysis.dir/clean
 .PHONY : clean
 
 #=============================================================================
